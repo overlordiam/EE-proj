@@ -16,9 +16,6 @@ function Home() {
              title = "The Lean Startup: How Constant Innovation Creates Radically Successful Businesses"
              image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg" 
              rating={5}
-             discription="Most startups fail. But many of those failures are preventable.
-             The Lean Startup is a new approach being adopted across the globe,
-            changing the way companies are built and new products are launched"
              price= {29.99}
           
              />
@@ -28,12 +25,7 @@ function Home() {
             image="https://m.media-amazon.com/images/I/61YhX32D1uL._AC_UY327_FMwebp_QL65_.jpg" 
             rating={4}
             price= {129.99}
-            discription="India's No 1 Mixer-Grinder Brand(as per Francis Kanoi) ;
-             Performance Features: This Preethi mixer grinder has a powerful motor that ensures
-              robust operations
-            Master Chef + Jar for food processing capabilities: Atta Kneading in 1 min, Chopping in j
-            ust 2 pulses, Grating and Slicing in seconds.
-            "
+           
            />
                
            </div>
