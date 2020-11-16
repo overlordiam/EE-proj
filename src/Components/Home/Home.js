@@ -21,8 +21,16 @@ function Home() {
              />
            <Product
             id="45678" 
-            title = "Preethi Zodiac MG 218 Mixer Grinder, 750W, 5 Jars (Black/ Light Grey)"
-            image="https://m.media-amazon.com/images/I/61YhX32D1uL._AC_UY327_FMwebp_QL65_.jpg" 
+            title = "Design Thinking para principiantes: La innovación como factor para el éxito empresarial (Spanish Edition)"
+            image="https://m.media-amazon.com/images/I/5138-DfI31L.jpg" 
+            rating={4}
+            price= {129.99}
+           
+           />
+           <Product
+            id="49678" 
+            title = "Data Structures & Algorithms in Java 2nd Edition"
+            image="https://images-na.ssl-images-amazon.com/images/I/41Z5qz-YSmL._SX378_BO1,204,203,200_.jpg" 
             rating={4}
             price= {129.99}
            
@@ -52,18 +60,111 @@ function Home() {
                 rating={5}
                 price= {949.00}
              />
+           
            </div>
 
-           <div className="home__row">
-            <Product 
-            id="98639"    
-            title = "Samsung LC49HG90DMUXEN 48.9-inch Ultra Wide Curved Monitor (Black)"
-            image="https://images-na.ssl-images-amazon.com/images/I/81vlA84pg6L._AC_SL1500_.jpg" 
-            rating={5}
-            price= {1543.09}
-            />
-           </div> 
+    
 
+           <div className="home__row">
+           <Product 
+           id="12347"    
+           title = "PUMA Men's Cell Regulate Sneaker"
+           image="https://m.media-amazon.com/images/I/81+EqPV2XAL._AC_UL480_FMwebp_QL65_.jpg" 
+           rating={5}
+           price= {1543.09}
+           />
+           <Product 
+           id="12349"    
+           title = "BRONAX Men's Stylish Graffiti Personality Sneakers"
+           image="https://images-na.ssl-images-amazon.com/images/I/81VI%2B7lR4DL._AC_UX575_.jpg" 
+           rating={4}
+           price= {1543.09}
+           />
+           <Product 
+           id="37232" 
+           title = "adidas Men's CF Lite Racer Byd"
+           image="https://images-na.ssl-images-amazon.com/images/I/81T7Ku7-thL._AC_UX575_.jpg" 
+           rating={4}
+           price= {949.00}
+        />
+
+          </div> 
+            
+          <div className="home__row">
+          <Product 
+          id="98609"    
+          title = "KUYIGO Men’s Casual Slim Fit Shirts Pure Color Long Sleeve Polo Fashion T-Shirts"
+          image="https://m.media-amazon.com/images/I/71tQE5MV4ZL._AC_UL480_FMwebp_QL65_.jpg" 
+          rating={5}
+          price= {1043.09}
+          />
+          <Product 
+          id="98609"    
+          title = "PUMA Men's  T-Shirts"
+          image="https://m.media-amazon.com/images/I/51mtnhLTB4L._AC_UL480_FMwebp_QL65_.jpg" 
+          rating={5}
+          price= {1043.09}
+          />
+          <Product 
+          id="21309"    
+          title = "MISSMAY Women's Vintage Floral Lace Long Sleeve Boat Neck Cocktail Party Swing Dress"
+          image="https://m.media-amazon.com/images/I/81qyP-akaBL._MCnd_SEARCH281250_AC_UL480_FMwebp_QL65_.jpg" 
+          rating={5}
+          price= {1043.09}
+          />
+         </div> 
+         
+         <div className="home__row">
+         <Product 
+         id="38639"    
+         title = "Apple Watch Series 3 (GPS, 38mm) - Silver Aluminum Case with White Sport Band"
+         image="https://m.media-amazon.com/images/I/71vCuRn4CkL._AC_UY327_FMwebp_QL65_.jpg" 
+         rating={5}
+         price= {1543.09}
+         />
+         <Product 
+         id="48639"    
+         title = "Samsung Galaxy Watch Active 2 (40mm, GPS, Bluetooth) Smart Watch with Advanced Health Monitoring 
+         Fitness Tracking  and Long Lasting Battery - Silver "
+         image="https://m.media-amazon.com/images/I/51bSW9gjoaL._AC_UY327_FMwebp_QL65_.jpg" 
+         rating={5}
+         price= {1543.09}
+         />
+
+         <Product 
+         id="58639"    
+         title = "Fossil Gen 5 Carlyle Stainless Steel Touchscreen Smartwatch with Speaker, Heart Rate, GPS, NFC, and Smartphone Notifications"
+         image="https://m.media-amazon.com/images/I/71XWG48C-NL._AC_UL480_FMwebp_QL65_.jpg" 
+         rating={5}
+         price= {1543.09}
+         />
+         </div> 
+
+
+           
+          <div className="home__row">
+          <Product 
+          id="98639"    
+          title = "Samsung LC49HG90DMUXEN 48.9-inch Ultra Wide Curved Monitor (Black)"
+          image="https://images-na.ssl-images-amazon.com/images/I/81vlA84pg6L._AC_SL1500_.jpg" 
+          rating={5}
+          price= {1543}
+          />
+          <Product 
+          id="88639"    
+          title = "SAMSUNG 65-inch Class QLED Q80T Series - 4K UHD Direct Full Array 12X Quantum HDR 12X Smart TV"
+          image="https://m.media-amazon.com/images/I/61DIUfDxBtL._AC_UY327_FMwebp_QL65_.jpg" 
+          rating={5}
+          price= {1430}
+          />
+          <Product 
+          id="78639"    
+          title = "TCL 50S425 50 inch 4K Smart LED ROKU TV (2019)"
+          image="https://m.media-amazon.com/images/I/71tN5cFBvFL._AC_UY327_FMwebp_QL65_.jpg" 
+          rating={5}
+          price= {1500}
+          />
+         </div> 
 
         </div>
       </div>
