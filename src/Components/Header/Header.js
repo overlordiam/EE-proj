@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { useStateValue } from '../../StateProvider';
 import { auth } from '../../firebase';
 function Header() {
-  const [{basket,user}, dispatch] = useStateValue();  
+  const [{basket,user}] = useStateValue();  
   const handleAuthentication= () => {
     if(user) {
       auth.signOut();
@@ -15,7 +15,7 @@ function Header() {
   return (
         <div className= "header">
            <Link to="/">
-              <img className="header__logo" src="http://pngimg.com/uploads/amazon/amazon_PNG25.png" alt="" />
+              <img className="header__logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrs3JfYRkv89ZF4vPxELDe8K0MJBWfErfPag&usqp=CAU" alt="" />
            </Link> 
         
           <div className="header__search"> 
@@ -30,23 +30,24 @@ function Header() {
             <div onClick={handleAuthentication} 
             className="header__option "> 
                 <span className="header__optionLineOne">
-                    Hello Guest
+                    Hello {!user ? "Guest" : user.email }
                 </span>
                 <span className="header__optionLineTwo">
                  {user ? 'Sign Out': 'Sign In' }
                 </span>
             </div>
           </Link>
-
+            <Link to="/orders"> 
             <div className="header__option "> 
-            <span className="header__optionLineOne">
-                Returns
-            </span>
-            <span className="header__optionLineTwo">
-               & Orders
-            </span>
+              <span className="header__optionLineOne">
+              Returns
+              </span>
+              <span className="header__optionLineTwo">
+                 & Orders
+              </span>
             </div>
-
+            </Link>
+            <Link to = "Contacts">
             <div className="header__option "> 
             <span className="header__optionLineOne">
               Contact
@@ -55,6 +56,7 @@ function Header() {
                 us
             </span>
             </div>
+            </Link>
             <Link to="/checkout">
               <div className="header__optionBasket"> 
                 <ShoppingCartIcon />
