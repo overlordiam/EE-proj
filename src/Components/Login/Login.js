@@ -12,7 +12,7 @@ function Login() {
 
     const signIn = e => {
         e.preventDefault();
-        auth.createUserWithEmailAndPassword(email,password).then((auth) => {
+        auth.signInWithEmailAndPassword(email,password).then((auth) => {
             history.push("/")
         }).catch((error) => alert(error.message) )
     }
@@ -49,11 +49,11 @@ function Login() {
                 </form>
 
                 <p>
-                    By signing-in you agree to the AMAZON FAKE CLONE Conditions of Use & Sale. Please
+                    By signing-in you agree to the CRWN Conditions of Use & Sale. Please
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
 
-                <button  className='login__registerButton' onClick={register} >Create your Amazon Account</button>
+                <button  className='login__registerButton' onClick={register} >Create your CRWN Account</button>
             </div>
         </div>
     )
