@@ -124,8 +124,7 @@ function Home() {
          />
          <Product 
          id="48639"    
-         title = "Samsung Galaxy Watch Active 2 (40mm, GPS, Bluetooth) Smart Watch with Advanced Health Monitoring 
-         Fitness Tracking  and Long Lasting Battery - Silver "
+         title = "Samsung Galaxy Watch Active 2 (40mm, GPS, Bluetooth) Smart Watch with Advanced Health Monitoring   Fitness Tracking  and Long Lasting Battery  Silver "
          image="https://m.media-amazon.com/images/I/51bSW9gjoaL._AC_UY327_FMwebp_QL65_.jpg" 
          rating={5}
          price= {1543.09}
